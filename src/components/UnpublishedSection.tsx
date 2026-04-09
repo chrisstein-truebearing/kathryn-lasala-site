@@ -2,12 +2,12 @@ const unpublishedBooks = [
   {
     title: "The Lost Ones",
     type: "Short Story",
-    genre: "Urban Fantasy",
+    genre: "Urban Fantasy; Dark Fantasy",
   },
   {
-    title: "Fated: Winter",
+    title: "Fated: Winter (Book 1)",
     type: "Novel",
-    genre: "Fantasy",
+    genre: "Fantasy; Romance; Second World; Family Saga",
   },
 ];
 
