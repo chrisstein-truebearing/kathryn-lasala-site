@@ -1,7 +1,7 @@
 import { Mail } from "lucide-react";
 
 const socials = [
-  { name: "Instagram", href: "#", label: "@katie.lasala" },
+  { name: "Instagram", href: "https://www.instagram.com/katie.lasala", label: "@katie.lasala" },
 ];
 
 const SocialsSection = () => {

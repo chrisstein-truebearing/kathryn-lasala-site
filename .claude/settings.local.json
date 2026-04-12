@@ -3,7 +3,9 @@
     "allow": [
       "mcp__Claude_Preview__preview_start",
       "Bash(xargs ls:*)",
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(gh repo:*)",
+      "Bash(gh api:*)"
     ]
   }
 }
