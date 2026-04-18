@@ -1,8 +1,9 @@
 const books = [
   {
-    title: "Coming Soon!",
-    year: "2026",
-    description: "",
+    title: "The Lost Ones",
+    subtitle: "Title of Anthology - Coming Soon",
+    year: "Fall - 2026",
+    description: "Short Story — Urban Fantasy; Dark Fantasy",
   },
 ];
 
@@ -28,6 +29,11 @@ const BooksSection = () => {
                 <h3 className="font-heading text-2xl md:text-3xl font-light group-hover:text-accent transition-colors duration-300">
                   {book.title}
                 </h3>
+                {book.subtitle && (
+                  <h4 className="font-heading text-lg md:text-xl font-light italic text-muted-foreground mt-1">
+                    {book.subtitle}
+                  </h4>
+                )}
                 {book.description && (
                   <p className="text-muted-foreground font-body text-sm mt-2 tracking-wide">
                     {book.description}
