@@ -1,7 +1,7 @@
 const books = [
   {
     title: "The Lost Ones",
-    subtitle: "Title of Anthology - Coming Soon",
+    subtitle: "Muses of Mythology Anthology: Fae Fables (Storm Dragon Publishing)",
     year: "Fall - 2026",
     description: "Short Story — Urban Fantasy; Dark Fantasy",
   },
