@@ -28,17 +28,15 @@ const BioSection = () => {
           <div className="w-12 h-px bg-foreground" />
           <div className="space-y-4 text-muted-foreground font-body text-sm leading-relaxed tracking-wide">
             <p>
-              Kathryn studied history and art in college, dipping a few toes into the realm of museums before
-            diving head first into a master&#39;s in library science. This may account for the many research side
-            quests she indulges in while drafting, though it hardly excuses the obscure references littered
-            within her works. She began her career moonlighting as a special collections librarian, where she
-            developed a love of Pacific Northwest history and a deep respect for its preservation. Kathryn
-            now works for a city as its recorder, dedicating her non-writing hours to documenting the twists
-            of politics and the dramatic turns in civic life.
+              Kathryn A. LaSala studied history and art in college, dipping a few toes into the realm of
+              museums before diving head first into a master&#39;s in library science. This may account for the
+              many research side quests she indulges in while drafting, though it hardly excuses the obscure
+              references littered within her works. She began her career moonlighting as a special collections
+              librarian and now works for a city as its recorder, dedicating her non-writing hours to
+              documenting the twists of politics and the dramatic turns in civic life.
             </p>
             <p>
-              She primarily writes fantasy tomes, but likes to experiment with normal-sized novels and short
-              tales in other genres when inspiration strikes.
+              She primarily writes fantasy that explore the themes of grief, family, and love.
             </p>
           </div>
         </div>
