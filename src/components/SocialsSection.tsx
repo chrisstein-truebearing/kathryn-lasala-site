@@ -41,6 +41,22 @@ const SocialsSection = () => {
             <span className="font-heading text-lg italic">fatedauthor@gmail.com</span>
           </a>
         </div>
+
+        <div className="mt-16 pt-12 border-t border-border/60">
+          <p className="font-body text-xs tracking-[0.2em] uppercase text-muted-foreground mb-3">
+            Representation
+          </p>
+          <p className="font-heading text-lg italic">Stephanie Katz</p>
+          <p className="font-body text-sm text-muted-foreground mt-1">
+            Agent / Owner,{" "}
+            <a
+              href="https://www.giraffelightmedia.com/"
+              className="hover:text-accent transition-colors duration-300 underline underline-offset-4 decoration-border"
+            >
+              GiraffeLight Media Agency
+            </a>
+          </p>
+        </div>
       </div>
     </section>
   );
