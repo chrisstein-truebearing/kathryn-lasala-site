@@ -2,8 +2,10 @@ const books = [
   {
     title: "The Lost Ones",
     subtitle: "Muses of Mythology Anthology: Fae Fables (Storm Dragon Publishing)",
-    year: "Fall - 2026",
+    year: "Nov 13, 2026",
     description: "Short Story — Urban Fantasy; Dark Fantasy",
+    purchaseUrl:
+      "https://www.amazon.com/Fables-Muses-Mythology-Anthology-Book-ebook/dp/B0HLV1DYYG",
   },
 ];
 
@@ -38,6 +40,16 @@ const BooksSection = () => {
                   <p className="text-muted-foreground font-body text-sm mt-2 tracking-wide">
                     {book.description}
                   </p>
+                )}
+                {book.purchaseUrl && (
+                  <a
+                    href={book.purchaseUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block mt-5 border border-border px-6 py-2.5 font-body text-xs tracking-[0.2em] uppercase text-muted-foreground hover:text-accent hover:border-accent transition-colors duration-300"
+                  >
+                    Purchase Here
+                  </a>
                 )}
               </div>
             </div>
