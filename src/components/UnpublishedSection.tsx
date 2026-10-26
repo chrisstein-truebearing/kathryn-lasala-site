@@ -4,6 +4,11 @@ const unpublishedBooks = [
     type: "Novel",
     genre: "Fantasy; Romance; Second World; Family Saga",
   },
+  {
+    title: "The Swell Lottery",
+    type: "Short Story",
+    genre: "Magical Realism; Literary Fiction; Mystery",
+  },
 ];
 
 const UnpublishedSection = () => {
